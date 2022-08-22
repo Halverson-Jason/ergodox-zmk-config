@@ -14,9 +14,9 @@
 				&kp TAB    &kp Q        &kp W        &kp F        &kp P        &kp G        &sl 2    &to 3    &kp J        &kp L        &kp U        &kp Y        &kp SEMICOLON &kp MINUS
 				&kp BSPC   &kp A        &kp R        &kp S        &kp T        &kp D                          &kp H        &kp N        &kp E        &kp I        &kp O         &kp SQT
 				&kp LSHIFT &kp Z        &kp X        &kp C        &kp V        &kp B        &kp LBKT &kp RBKT &kp K        &kp M        &kp CMMA     &kp DOT      &kp FSLH      &kp ENTER
-				&none &kp LCTR     &kp LGUI     &kp LALT     &kp DARW                                                 &kp UARW     &kp HOME   &kp PG_UP    &kp PG_DN     &kp END
+				&kp LC(LSHIFT) &kp LCTRL     &kp LGUI     &kp LALT     &kp DARW                                                 &kp UARW     &kp HOME &kp PG_UP    &kp PG_DN     &kp END
 				                                                               &kp SLCK     &kp HOME &kp END  &kp INS
-				                                                  &kp LSHIFT   &sl 1        &kp PGUP &kp PGDN &kp DEL      &kp SPC
+				                                                  &kp LSHIFT   &sl 1        &kp PG_UP &kp PG_DN &kp DEL      &kp SPC
 				                                                                            &kp LGUI &sl 1
 			>;
 		};

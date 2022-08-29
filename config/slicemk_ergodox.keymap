@@ -15,9 +15,9 @@
 				&kp BSPC &kp A        &kp R        &kp S        &kp T        &kp D                            &kp H        &kp N        &kp E        &kp I        &kp O         &kp SQT
 				&kp LSHIFT &kp Z        &kp X        &kp C        &kp V        &kp B        &kp LBKT  &kp RBKT  &kp K        &kp M        &kp CMMA     &kp DOT      &kp FSLH      &kp ENTER
 				&none      &kp LCTRL    &kp LGUI     &kp LALT     &kp DARW                                                   &sl 3     &kp HOME     &kp PG_UP    &kp PG_DN     &kp END
-				                                                               &kp SLCK     &kp HOME  &kp LARW   &kp RARW
+				                                                               &kp C_PP     &kp K_VOL_UP  &kp LARW   &kp RARW
 				                                                  &lt 4 SPC        &kp LSHIFT   &sl 4 &sl 1 &lt 3 DEL    &kp SPC
-				                                                                            &kp LGUI  &sl 1
+				                                                                            &kp K_VOL_DN  &sl 1
 			>;
 		};
 		fn {

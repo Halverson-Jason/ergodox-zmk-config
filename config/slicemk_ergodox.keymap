@@ -65,7 +65,7 @@
 				&none &none &none    &none    &none    &none &none &none &none &none &none &none &none &none
 				&none &none &none    &kp UARW &none    &none &none &none &none &none &none &none &none &none
 				&kp ESC &none &kp LARW &kp DARW &kp RARW &none             &none &none &none &none &none &none
-				&kp ENTER &none &none    &none    &none    &none &none &none &none &none &none &none &none &none
+				&kp ENTER &none &none    &none    &none    &none &none &none &none &none &none &none &kp BSLH &none
 				&none &none &none    &none    &none                            &none &none &none &none &sl 0
 				                                       &none &none &none &none
 				                              &none    &none &none &none &none &none

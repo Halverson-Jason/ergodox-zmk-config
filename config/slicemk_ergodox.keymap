@@ -11,7 +11,7 @@
 			bindings = <
 				&bootloader
 				&kp GRAV   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC  &kp INS   &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp EQUAL
-				&kp TAB    &kp Q        &kp W        &kp F        &kp P        &kp G        &to 1     &to 3     &kp J        &kp L        &kp U        &kp Y        &kp SEMICOLON &kp MINUS
+				&kp TAB    &kp Q        &kp W        &kp F        &kp P        &kp G        &to 1     &to 5     &kp J        &kp L        &kp U        &kp Y        &kp SEMICOLON &kp MINUS
 				&kp BSPC &kp A        &kp R        &kp S        &kp T        &kp D                            &kp H        &kp N        &kp E        &kp I        &kp O         &kp SQT
 				&kp LSHIFT &kp Z        &kp X        &kp C        &kp V        &kp B        &kp LBKT  &kp RBKT  &kp K        &kp M        &kp CMMA     &kp DOT      &kp FSLH      &kp ENTER
 				&none      &kp LCTRL    &kp LGUI     &kp LALT     &kp DARW                                                   &sl 3     &kp HOME     &kp PG_UP    &kp PG_DN     &kp END
@@ -72,5 +72,18 @@
 				                                             &none &none
 			>;
 		};
+        mac {
+            bindings = <
+                &bootloader
+                &kp GRAV   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC  &kp INS   &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp EQUAL
+                &kp TAB    &kp Q        &kp W        &kp F        &kp P        &kp G        &to 1     &to 0     &kp J        &kp L        &kp U        &kp Y        &kp SEMICOLON &kp MINUS
+                &kp BSPC &kp A        &kp R        &kp S        &kp T        &kp D                            &kp H        &kp N        &kp E        &kp I        &kp O         &kp SQT
+                &kp LSHIFT &kp Z        &kp X        &kp C        &kp V        &kp B        &kp LBKT  &kp RBKT  &kp K        &kp M        &kp CMMA     &kp DOT      &kp FSLH      &kp ENTER
+                &none      &kp LGUI    &kp LCTRL     &kp LALT     &kp DARW                                                   &sl 3     &kp HOME     &kp PG_UP    &kp PG_DN     &kp END
+                                                                            &kp C_PP     &kp K_VOL_UP  &kp LARW   &kp RARW
+                                                                &lt 4 SPC        &kp LSHIFT   &sl 4 &sl 1 &lt 3 DEL    &kp SPC
+                                                                                        &kp K_VOL_DN  &sl 1
+        >;
+        };
 	};
 };
